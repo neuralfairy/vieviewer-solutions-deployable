@@ -72,7 +72,7 @@ const HeroSection = ({
               </a>
             </Button>
             {secondaryCta && (
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary" asChild>
+              <Button size="lg" variant="outline" className="bg-white text-primary hover:bg-white/90 shadow-elevated" asChild>
                 <a href={secondaryCta.href}>{secondaryCta.text}</a>
               </Button>
             )}
